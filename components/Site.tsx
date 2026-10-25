@@ -33,7 +33,7 @@ function Logo({ compact = false }: { compact?: boolean }) {
 }
 function Reveal({ children, className = "", delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
   const reduced = useReducedMotion();
-  return <motion.div className={className} initial={reduced ? false : { opacity: 0, y: 34 }} whileInView={reduced ? undefined : { opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.12 }} transition={{ duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] }}>{children}</motion.div>;
+  return <motion.div className={`scroll-reveal ${className}`.trim()} initial={reduced ? false : { opacity: 0, y: 34 }} whileInView={reduced ? undefined : { opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.12 }} transition={{ duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] }}>{children}</motion.div>;
 }
 function SectionIntro({ eyebrow, title, body, centered = false }: { eyebrow: string; title: string; body?: string; centered?: boolean }) {
   return <Reveal className={`section-intro${centered ? " center" : ""}`}><div className="eyebrow"><span className="eyebrow-line" />{eyebrow}</div><h2>{title}</h2>{body && <p>{body}</p>}</Reveal>;

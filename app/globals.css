@@ -589,3 +589,53 @@ html[dir="rtl"] .btn svg,html[dir="rtl"] .nav-cta svg,html[dir="rtl"] .portfolio
 @media (prefers-reduced-motion:reduce) {
   .floating-mobile,.scene-particle { animation:none!important; }
 }
+
+
+/* =============================================================
+   HEKMAT TECH / MOBILE VISIBILITY HOTFIX v1.3
+   The iOS Safari screen recording revealed that scroll-triggered
+   Framer Motion elements sometimes remain at inline opacity: 0.
+   These elements still occupy their full height, resulting in very
+   large black gaps. On mobile/tablet, guarantee content visibility
+   without changing a single desktop rule or desktop animation.
+   ============================================================= */
+@media (max-width: 1023px) {
+  /* overflow:hidden creates a scroll/clipping ancestor on Safari,
+     which can prevent intersection observers from activating. */
+  .site-root {
+    overflow: clip;
+  }
+
+  /* Force the real section text, cards and prices to be shown even
+     if the scroll-reveal observer never runs on iPhone Safari. */
+  .scroll-reveal {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Content-first rhythm: keep luxury spacing without empty pages. */
+  .section-pad {
+    padding-top: clamp(50px, 12vw, 65px);
+    padding-bottom: clamp(50px, 12vw, 65px);
+  }
+
+  .section-intro {
+    margin-bottom: 28px;
+  }
+
+  .services-grid,
+  .why-grid,
+  .portfolio-grid,
+  .pricing-grid,
+  .process-track {
+    row-gap: 16px;
+  }
+
+  /* Avoid a tall empty area when an illustration's content is short. */
+  .hero-bottom {
+    min-height: 38px;
+  }
+}
