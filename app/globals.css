@@ -419,3 +419,173 @@ html[dir="rtl"] .btn svg,html[dir="rtl"] .nav-cta svg,html[dir="rtl"] .portfolio
   .software-preview:hover .software-window { transform: none; }
   .btn:active { transform: scale(.985); }
 }
+
+
+/* =============================================================
+   HEKMAT TECH • Mobile visual parity pass v1.2
+   Overrides apply only to tablets and handheld devices.
+   Desktop styles at >=1024px are intentionally untouched.
+   ============================================================= */
+@media (min-width: 641px) and (max-width: 1023px) {
+  /* Keep the premium laptop composition as the visual centerpiece. */
+  .hero { background:radial-gradient(circle at 72% 61%,rgba(212,175,55,.11),transparent 50%),var(--bg); }
+  .hero-copy { max-width:800px;margin-inline:auto; }
+  .hero-visual { min-height:550px;max-width:760px; }
+  .laptop-frame { left:8%;width:82%;top:14%;height:65%; }
+  .floating-mobile { width:23%;right:3%; }
+  .services-grid,.portfolio-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .services-grid .service-card { min-height:485px; }
+  .service-card ul { grid-template-columns:1fr; }
+  .software-preview { padding:28px; }
+  .software-window-body { height:355px; }
+  .pricing-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .pricing-card:last-child { grid-column:1/-1; }
+}
+@media (max-width: 640px) {
+  :root { --mobile-gutter:clamp(15px,4vw,22px); }
+  html { scroll-padding-top:94px; }
+  .site-root { width:100%;max-width:100%; }
+  .container { width:calc(100% - var(--mobile-gutter)*2); }
+  .section-pad { padding-block:clamp(68px,16vw,88px); }
+
+  /* Desktop-grade glass header; key controls stay accessible. */
+  .site-header,.site-header.scrolled { top:8px; }
+  .header-inner { min-height:62px;gap:5px;padding:7px 10px;border-radius:16px;
+    background:color-mix(in srgb,var(--glass) 95%,transparent);
+    box-shadow:0 12px 40px rgba(0,0,0,.35),0 0 0 1px rgba(212,175,55,.08) inset; }
+  .header-logo { min-width:0;flex-shrink:1; }
+  .brand-small { gap:7px; }
+  .brand-small .brand-mark { width:36px;height:36px;flex:none; }
+  .brand-small .brand-name { font-size:clamp(10px,2.9vw,12px);white-space:nowrap; }
+  .brand-small .brand-name span { font-size:8px; }
+  .header-controls { display:flex;gap:5px;flex-shrink:0; }
+  .header-controls > .lang-toggle { display:flex;gap:2px;padding:3px;min-width:0; }
+  .header-controls > .lang-toggle button { min-height:37px;min-width:29px;padding:5px 5px;font-size:11px; }
+  .header-controls > .lang-toggle i { margin:0 1px; }
+  .header-controls > .theme-toggle { display:none; } /* Still accessible in mobile menu */
+  .header-controls .mobile-toggle { display:grid;min-height:42px;min-width:42px;width:42px;height:42px; }
+  .mobile-menu { top:67px;inset-inline:var(--mobile-gutter);box-shadow:0 24px 60px rgba(0,0,0,.45); }
+  .mobile-menu nav { padding:10px;grid-template-columns:1fr; }
+  .mobile-menu nav a { border-radius:10px;padding:12px 15px;line-height:1.5;font-size:.95rem; }
+  .mobile-menu nav a.active { background:rgba(212,175,55,.09);color:var(--gold-light); }
+
+  /* The SAME gold 3D laptop/phone hero as desktop, recomposed for portrait. */
+  .hero { padding-top:120px;background:
+    radial-gradient(ellipse 85% 35% at 55% 68%,rgba(212,175,55,.10),transparent 72%),
+    radial-gradient(ellipse at 10% 20%,rgba(64,83,180,.055),transparent 54%),var(--bg); }
+  .hero-grid { opacity:.58;background-size:50px 50px; }
+  .hero-layout { display:flex;flex-direction:column;gap:0;align-items:stretch; }
+  .hero-copy { text-align:center;width:100%;padding:0; }
+  .hero-copy .eyebrow { margin:0 auto 18px;justify-content:center;max-width:100%; }
+  .hero h1 { margin:0 auto;max-width:26ch;font-size:clamp(2.25rem,8.9vw,3.7rem);line-height:1.29;letter-spacing:-.04em; }
+  html[lang="fa-AF"] .hero h1 { font-size:clamp(2.08rem,8.3vw,3.45rem);line-height:1.56;letter-spacing:-.028em; }
+  .hero-alt { font-size:clamp(.79rem,3.6vw,.95rem);margin:16px auto 0; }
+  .hero-description { max-width:50ch;margin:14px auto 21px;font-size:clamp(.87rem,3.8vw,1rem);line-height:1.85; }
+  .hero-actions { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;justify-content:stretch; }
+  .hero-actions .btn { min-width:0;min-height:54px;width:100%;padding:9px 8px;border-radius:12px;
+    display:inline-flex;justify-content:center;gap:5px;font-size:clamp(.78rem,3.5vw,.93rem);font-weight:760; }
+  .hero-actions .btn svg { width:15px;height:15px;flex-shrink:0; }
+  .hero-footnote { justify-content:center;margin-top:18px;gap:8px 18px; }
+  .hero-footnote span { font-size:.76rem; }
+  .hero-visual { position:relative;flex:none;width:100%;margin:2px auto 0;min-height:0;height:clamp(365px,104vw,465px); }
+  .hero-scene,html[dir="rtl"] .hero-scene {left:0;right:0;top:0;bottom:0;width:100%;height:100%;transform:none;}
+  .scene-ring { inset:7% 0 6%;border-color:rgba(212,175,55,.15); }
+  .ring-two { inset:19% 12% 18%; }
+  .scene-title { top:9%;right:1%;font-size:clamp(7px,1.9vw,10px); }
+  .laptop-frame { top:16%;left:2%;width:92%;height:62%;border-width:5px;border-bottom-width:8px;
+    border-radius:14px 14px 8px 8px;transform:rotateY(-8deg) rotateX(3deg) rotateZ(-2deg);
+    box-shadow:0 30px 62px rgba(0,0,0,.62),0 0 38px rgba(212,175,55,.075); }
+  .laptop-base { z-index:1;top:78.5%;left:0;width:95%;height:12px;transform:rotateZ(-2deg) skewX(-5deg); }
+  .floating-mobile { z-index:3;top:43%;right:-1%;width:25%;height:44%;max-width:115px;border:3px solid #50545f;
+    border-radius:17px;box-shadow:0 22px 46px rgba(0,0,0,.7),0 0 0 1px rgba(255,255,255,.14) inset; }
+  .phone-screen { padding:23px 8px 8px; }
+  .phone-logo { font-size:14px; }
+  .phone-kicker { font-size:6px;margin-top:10px; }
+  .phone-screen b { font-size:clamp(9px,2.6vw,12px); }
+  .phone-art span { max-width:50px; }
+  .floating-info { top:7%;left:1%;padding:7px 9px;gap:6px;z-index:4; }
+  .floating-info-icon { width:29px;height:29px; }
+  .floating-info small,.floating-info b { font-size:8px; }
+  .floating-database { left:9%;bottom:5%;z-index:4; }
+  .concept-label { right:0;bottom:2%;font-size:9px; }
+  /* Dashboard details should read as a product UI, not microscopic labels. */
+  .dash-sidebar { width:12%;flex:0 0 12%;padding:11px 4px;gap:12px; }
+  .dash-main { padding:10px 9px 6px; }
+  .dash-greeting { font-size:clamp(10px,2.55vw,12px); }
+  .dash-caption { font-size:8px; }
+  .dash-stat-row { gap:7px;margin:8px 0; }
+  .dash-stat { padding:7px;border-radius:6px; }
+  .dash-stat span,.dash-stat small { font-size:8px; }
+  .dash-stat b { font-size:clamp(13px,3.7vw,17px);margin:3px 0; }
+  .dash-chart { height:clamp(79px,22vw,106px);padding:7px 9px; }
+  .dash-chart-top b,.dash-list { font-size:9px; }
+  .dash-chart svg { height:calc(100% - 12px); }
+  .dash-data-row { height:18px; }
+  .hero-bottom { height:38px; }
+  .marquee { margin-top:5px; }
+
+  /* Bento services have the same visual art and depth as desktop. */
+  .services-grid,.portfolio-grid,.pricing-grid,.why-grid,.process-track { grid-template-columns:minmax(0,1fr);gap:18px; }
+  .service-card { padding:24px 22px;min-height:auto;border-radius:21px;
+    background:radial-gradient(ellipse at 90% 4%,rgba(212,175,55,.065),transparent 48%),linear-gradient(145deg,var(--panel),var(--bg2)); }
+  .service-art { height:110px; }
+  .service-card h3 { font-size:clamp(1.34rem,5.1vw,1.56rem); }
+  .service-card p { font-size:.95rem; }
+  .service-card ul { grid-template-columns:repeat(2,minmax(0,1fr));gap:10px; }
+  .service-card li { align-items:flex-start;line-height:1.55; }
+  .service-card li svg { margin-top:3px; }
+  .service-link { margin-top:22px; }
+
+  /* Software previews retain full, rich desktop-style dashboard details. */
+  .product-tabs { margin-bottom:24px; }
+  .solution-layout { display:flex;flex-direction:column;gap:26px; }
+  .solution-visual,.solution-details { width:100%;min-width:0; }
+  .software-preview { padding:15px 9px 19px;min-width:0;border-radius:18px;
+    background:radial-gradient(ellipse at 50% 15%,rgba(212,175,55,.095),transparent 65%),var(--panel); }
+  .software-window { width:100%;max-width:none;min-width:0;transform:none!important; }
+  .software-window-body { height:400px; }
+  .software-sidebar { flex:0 0 37px;width:37px;padding:10px 3px;gap:12px; }
+  .software-content { min-width:0;padding:13px 10px; }
+  .software-head h4 { font-size:12px; }
+  .software-stat-grid { grid-template-columns:repeat(2,minmax(0,1fr));gap:7px; }
+  .software-stat:nth-child(3) { grid-column:span 2; }
+  .software-stat { min-width:0;padding:9px; }
+  .software-stat span,.software-stat small { font-size:9px; }
+  .software-stat strong { font-size:15px; }
+  .software-analytics { min-height:103px; }
+  .software-watermark { font-size:10px; }
+  .solution-details h3 { font-size:clamp(1.6rem,6vw,2.25rem); }
+  .feature-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+
+  /* Consistent premium artwork scale, not squeezed desktop cards. */
+  .portfolio-card .project-art { height:clamp(225px,62vw,285px); }
+  .portfolio-card-bottom { padding:21px; }
+  .why-card,.process-step,.pricing-card { padding:23px; }
+  .estimator-form,.contact-form { padding:24px 18px; }
+  .choice-grid,.platform-choices { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .choice-btn,.platform-choices button { min-width:0; }
+  .field { font-size:16px; }
+  .footer { padding-top:60px; }
+  .footer-watermark { font-size:clamp(2.3rem,12vw,5rem); }
+}
+@media (max-width: 365px) {
+  .header-inner { padding:7px 7px; }
+  .brand-small .brand-mark { width:33px;height:33px; }
+  .brand-small .brand-name { font-size:10px; }
+  .header-controls > .lang-toggle button { min-width:25px;font-size:10px;padding:5px 3px; }
+  .header-controls .mobile-toggle { width:39px;min-width:39px; }
+  .hero h1 { font-size:clamp(2.06rem,8.3vw,2.5rem); }
+  html[lang="fa-AF"] .hero h1 { font-size:clamp(1.92rem,7.8vw,2.3rem); }
+  .hero-actions { gap:7px; }
+  .hero-actions .btn { min-height:50px;font-size:.77rem; }
+  .hero-visual { height:clamp(332px,102vw,374px); }
+  .dash-stat span,.dash-stat small { font-size:7px; }
+  .dash-chart { height:76px; }
+  .service-card ul { grid-template-columns:minmax(0,1fr); }
+  .software-preview { padding:12px 6px; }
+  .software-sidebar { width:33px;flex-basis:33px; }
+  .software-content { padding:10px 7px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .floating-mobile,.scene-particle { animation:none!important; }
+}
