@@ -1,0 +1,58 @@
+export const en = {
+  language: "English",
+  metaTitle: "HEKMAT TECH | Websites & Software Solutions",
+  metaDescription: "Premium websites, database systems and practical software solutions for growing businesses.",
+  nav: { home: "Home", services: "Services", solutions: "Solutions", portfolio: "Our Work", why: "Why Us", process: "Process", pricing: "Pricing", faq: "FAQ", contact: "Contact" },
+  actions: { getStarted: "Start a Project", viewServices: "Explore Services", learnMore: "Explore Details", discover: "Discover Solutions", contact: "Let's Talk", seeWork: "View Projects", sendInquiry: "Send on WhatsApp", preview: "Preview", live: "Visit Website", close: "Close", back: "Back", viewAll: "Explore Our Work", details: "See Details", order: "Request a Quote", top: "Back to top", menu: "Open menu", changeTheme: "Change theme", switchLanguage: "Switch language", submit: "Open WhatsApp", next: "Continue", createRequest: "Create Project Request" },
+  hero: { eyebrow: "THE FUTURE IS BUILT HERE", titleA: "Your ideas.", titleB: "Our expertise.", titleC: "Digital excellence.", titleAlt: "Transforming Your Ideas Into Digital Experiences", body: "Professional websites, advanced database systems, and custom software solutions built to help your business grow.", chipA: "Premium web design", chipB: "Intelligent business software", statA: "Thoughtful design", statB: "Built for your business", scroll: "SCROLL TO EXPLORE", panelTitle: "Business overview", panelTop: "Visual prototype", panelSales: "Business insights", panelOrders: "Recent activity", panelActive: "Operations", panelChart: "Performance", mockupBadge: "DEMO UI" },
+  ticker: ["WEB DEVELOPMENT", "DATABASE SYSTEMS", "DESKTOP APPLICATIONS", "USER EXPERIENCE", "CUSTOM SOFTWARE"],
+  services: { eyebrow: "WHAT WE CREATE", title: "Digital products that do more than look good.", intro: "From a distinctive business website to the software powering your daily operations — crafted with care, functionality and clarity.", list: [
+    { name: "Website Development", desc: "Memorable, fast and responsive websites that turn visitors into customers.", points: ["Business & company sites", "Online stores", "Portfolio & creative websites", "Custom web experiences"] },
+    { name: "Database Systems", desc: "Practical tools to keep your sales, inventory, customers and records organized.", points: ["Supermarket & pharmacy", "Gym & membership management", "Loans & debt tracking", "Inventory and reports"] },
+    { name: "Desktop Applications", desc: "Reliable Windows applications for workflows that need focus and efficiency.", points: ["Windows management software", "Offline-first workflows", "Point of sale interfaces", "Electron applications"] },
+    { name: "Custom Software", desc: "Solutions shaped around the way your business actually works.", points: ["Prescription tools", "Bookings & reservations", "Customer management", "Business automation"] }
+  ] },
+  products: { eyebrow: "BUILT AROUND REAL WORK", title: "Smart software. Simpler operations.", intro: "Explore interface concepts for common business needs. Every preview here is illustrative, not a claim of a live feature.", illustration: "ILLUSTRATIVE INTERFACE · NOT A REAL SCREENSHOT", explore: "Ask about this solution", titles: ["Pharmacy Management", "Supermarket POS", "Gym Management", "Qarz — Debt Management", "Doctor Prescriptions"], desc: ["Stay on top of medicines, stock levels and purchase records.", "Make daily sales and product tracking more organized.", "Manage members, trainers and recurring fee records.", "See customers, payments and remaining balances in one place.", "Create professional prescriptions and print clear records."], features: [
+    ["Medicine inventory", "Expiry tracking", "Sales & purchasing", "Stock alerts", "Business reporting"],
+    ["Barcode workflow", "Product inventory", "Sales history", "Stock management", "Transactions"],
+    ["Member profiles", "Trainer management", "Monthly fees", "Expired memberships", "Reports"],
+    ["Customer profiles", "Debt register", "Payment records", "Balance tracking", "Reports"],
+    ["Patient details", "Medicine selection", "Prescription editor", "Printable layout", "Record management"]
+  ], dashboard: { overview: "Overview", inventory: "Inventory", reports: "Reports", settings: "Settings", summary: "Dashboard preview", period: "THIS MONTH", orders: "Transactions", stock: "Records", traffic: "Activity", chart: "Weekly overview", recent: "Recent records", updated: "Example content", queued: "Pending", done: "Complete" } },
+  portfolio: { eyebrow: "SELECTED WORK", title: "Ideas made visible.", intro: "A mix of owner-provided project links and clearly labeled design concepts. The visual cards are illustrative, not screenshots.", all: "All projects", website: "Websites", database: "Databases", creative: "Creative", application: "Applications", concept: "DESIGN CONCEPT", live: "PROJECT LINK", preview: "Project overview", note: "Illustrative design preview", visit: "Open project website", close: "Close project preview" },
+  why: { eyebrow: "THE HEKMAT TECH DIFFERENCE", title: "Not just built. Considered.", intro: "We believe well-designed technology should make complex work feel effortless.", items: [
+    { title: "Design with purpose", desc: "Clear interfaces, careful detail and experiences that feel natural." },
+    { title: "Works on every screen", desc: "Responsive layouts designed thoughtfully for mobile and desktop." },
+    { title: "Practical by design", desc: "Software focused on the real tasks your team handles every day." },
+    { title: "Made to evolve", desc: "Maintainable foundations with room for future enhancements." },
+    { title: "Security-minded", desc: "Thoughtful handling of access, data and modern development practices." },
+    { title: "Clear collaboration", desc: "A straightforward process from first conversation to delivery." }
+  ] },
+  process: { eyebrow: "HOW WE WORK", title: "A simple path from idea to launch.", intro: "A clear, collaborative development process at every stage.", steps: [
+    { title: "Discovery", text: "We understand your goals, users and the problems to solve." },
+    { title: "Planning & UI/UX", text: "We map the features, flows and visual direction." },
+    { title: "Development", text: "We build the agreed website or software solution." },
+    { title: "Testing", text: "We review usability, functionality and the details." },
+    { title: "Delivery", text: "We prepare the agreed handover and setup guidance." },
+    { title: "Support", text: "We discuss maintenance and improvements based on your needs." }
+  ] },
+  pricing: { eyebrow: "FLEXIBLE TO YOUR NEEDS", title: "Good solutions start with the right scope.", intro: "Every project is different. Tell us what you need, and we'll work toward an appropriate proposal.", custom: "Custom quotation", from: "Starting at", afn: "AFN", most: "STARTER OPTION", tiers: [
+    { title: "Professional Website", desc: "For brands ready for a polished online presence.", features: ["Custom responsive design", "Mobile-friendly experience", "Contact & inquiry actions", "Core SEO setup"] },
+    { title: "Business Database", desc: "For teams that want a simpler way to manage daily records.", features: ["Business-specific workflows", "Simple usable interface", "Records and reporting", "Scope defined before work"] },
+    { title: "Custom Application", desc: "For tailored desktop or multi-feature software.", features: ["Requirements review", "Custom interface design", "Feature-specific development", "Delivery planning"] }
+  ], notice: "Starter database pricing applies only to an agreed basic package. Advanced features, integrations and hosting require separate scoping." },
+  estimator: { eyebrow: "TELL US YOUR IDEA", title: "Let's define your next project.", intro: "Choose your needs, and we'll prepare a WhatsApp message you can review before sending.", category: "01 / Project type", features: "02 / Needed features", platform: "03 / Preferred platform", details: "04 / Your project details", yourName: "Your name (optional)", yourNotes: "Describe your idea, timeline, or any special requirement...", review: "Your request summary", noFeatures: "No extra features selected", quoteNote: "This is a request, not a confirmed price or delivery promise.", categories: ["Website", "Database", "Desktop Application", "Custom Software"], featureChoices: ["Admin dashboard", "User accounts", "Reports & analytics", "Inventory management", "Offline capability", "Cloud synchronization", "Bilingual interface", "Custom feature"], platformChoices: ["Website", "Windows", "Mobile-friendly Web App", "Multiple Platforms"], summary: { project: "Project", features: "Features", platform: "Platform", note: "Notes", name: "Name" }, messageTitle: "New project inquiry — HEKMAT TECH", pickOne: "Choose a project type", choosePlatform: "Choose a platform" },
+  faq: { eyebrow: "GOOD TO KNOW", title: "Frequently asked questions.", intro: "A few things worth knowing before we start.", items: [
+    { q: "How much does a website cost?", a: "The price depends on the number of pages, design complexity and features. Share your requirements for a tailored quote." },
+    { q: "How much does a database system cost?", a: "Pricing depends on your workflow, number of users and selected features. A basic starter package can be discussed; advanced systems are quoted individually." },
+    { q: "How long will development take?", a: "Timing depends on scope and feedback. We can discuss a realistic schedule after reviewing your project." },
+    { q: "Can software work without internet?", a: "Offline workflows are possible for suitable desktop projects. Any cloud sync features need connectivity and extra setup." },
+    { q: "Can multiple devices use the same system?", a: "Multi-device support can be designed when required. The right approach depends on your devices and synchronization needs." },
+    { q: "Do you provide maintenance and support?", a: "Support options can be discussed and included in the project agreement." },
+    { q: "Can you customize the application?", a: "Yes. Custom workflows, interfaces and additional features can be scoped to your needs." },
+    { q: "Will my website work on phones?", a: "Responsive design is part of our website development approach." },
+    { q: "Can the software support Dari and English?", a: "Yes, bilingual interfaces can be included when agreed in the project scope." }
+  ] },
+  contact: { eyebrow: "LET'S BUILD SOMETHING", title: "Your next great project starts here.", intro: "Have an idea, a challenge or an existing workflow you'd like to improve? Tell us about it.", name: "Full name", phone: "Phone number", service: "I'm interested in", description: "Tell us about your project", choose: "Select a service", send: "Continue to WhatsApp", email: "Email us", whatsapp: "Chat on WhatsApp", privacy: "This form opens WhatsApp with your message prepared. Nothing is saved to a website database.", nameRequired: "Please enter your name.", phoneRequired: "Please enter a valid phone number.", serviceRequired: "Please choose a service.", descRequired: "Please add a short project description.", ready: "WhatsApp opens in a new tab. Review your message and tap Send there.", waTitle: "HEKMAT TECH — New contact request", fullName: "Name", phoneLabel: "Phone", serviceLabel: "Service", projectLabel: "Project details" },
+  footer: { tagline: "Thoughtful digital experiences. Practical software for ambitious businesses.", browse: "Explore", solutions: "Solutions", connect: "Get in touch", rights: "All rights reserved.", made: "Designed to help ideas grow.", back: "Back to top" }
+};
