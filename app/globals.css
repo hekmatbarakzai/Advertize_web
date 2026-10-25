@@ -34,3 +34,388 @@ html[dir="rtl"] .btn svg,html[dir="rtl"] .nav-cta svg,html[dir="rtl"] .portfolio
 @media(max-width:640px){.container{width:calc(100% - 32px)}.section-pad{padding:75px 0}.section-intro{margin-bottom:32px}.section-intro h2{font-size:clamp(2rem,8vw,3rem)}.section-intro p{font-size:.92rem}.site-header{top:8px}.site-header.scrolled{top:6px}.header-inner{min-height:61px;padding:7px 10px;border-radius:12px}.brand-small .brand-mark{height:37px;width:37px}.brand-small .brand-name{font-size:11px}.brand-small .brand-name span{font-size:8px;letter-spacing:.3em}.header-controls{gap:5px}.header-controls>.lang-toggle{display:none}.nav-cta{display:none}.icon-button{width:36px;height:36px}.mobile-menu{top:68px;inset-inline:16px}.mobile-menu nav{grid-template-columns:1fr}.mobile-menu nav a{padding:12px 16px}.hero{padding-top:135px}.hero h1{font-size:clamp(2.65rem,10vw,4rem);line-height:1.21}html[lang="fa-AF"] .hero h1{font-size:clamp(2.3rem,9vw,3.5rem);line-height:1.5}.hero-eyebrow{font-size:.64rem;letter-spacing:.08em}.hero-description{font-size:.92rem;margin:15px 0 24px}.hero-alt{font-size:.79rem}.hero-actions{gap:9px}.hero-actions .btn{min-height:51px;padding:11px 14px;font-size:.78rem;gap:7px}.hero-footnote{margin-top:24px;gap:12px}.hero-footnote span{font-size:.69rem}.hero-visual{min-height:345px}.hero-scene{transform:scale(.92);transform-origin:center center}.laptop-frame{top:12%;height:72%;left:5%;width:84%;border-width:6px;border-bottom-width:9px}.laptop-base{top:84%;left:1%;width:92%}.floating-mobile{top:35%;height:54%;right:-2%;width:29%;border-width:3px;border-radius:20px}.phone-screen{padding:29px 9px 9px}.phone-screen b{font-size:12px}.phone-kicker{margin-top:15px}.floating-info{left:1%;top:5%;padding:7px;gap:6px}.floating-info-icon{width:24px;height:24px}.floating-info small{font-size:6px}.floating-info b{font-size:7px}.floating-database{bottom:2%;left:10%;padding:7px}.scene-title{font-size:.43rem}.dash-main{padding:9px 7px}.dash-sidebar{padding:10px 4px;gap:9px}.mini-brand{font-size:11px}.sidebar-line{width:12px;height:3px}.sidebar-bottom{width:10px;height:10px}.dash-greeting{font-size:9px}.dash-caption{font-size:6px}.dash-stat-row{margin:8px 0;gap:5px}.dash-stat{padding:6px}.dash-stat span,.dash-stat small{font-size:5px}.dash-stat b{font-size:10px;margin:3px 0}.dash-avatar{height:16px;width:16px;font-size:7px}.dash-chart{height:72px;padding:6px}.dash-chart-top b{font-size:7px}.dash-chart svg{height:55px}.dash-list{padding:7px 0;font-size:7px}.dash-data-row{height:15px}.dash-data-dot{width:7px;height:7px}.dash-data-lines i{width:26px}.dash-data-pill{width:23px}.hero-bottom{height:60px}.marquee{height:55px}.marquee-track{gap:28px}.marquee-track span{font-size:.6rem;gap:9px}.services-grid{grid-template-columns:1fr}.service-card{min-height:0;padding:23px}.service-art{height:70px}.service-card ul{grid-template-columns:repeat(2,1fr)}.service-card h3{margin-top:5px}.product-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;padding-bottom:8px;margin-inline:-16px;padding-inline:16px;scrollbar-width:thin}.product-tab{white-space:nowrap;flex:none}.software-preview{min-height:0;padding:22px 11px}.software-window-body{height:270px}.software-sidebar{width:39px;padding:9px 4px}.software-content{padding:10px}.software-head h4{font-size:10px;max-width:160px}.soft-eyebrow{font-size:7px}.software-profile{width:20px;height:20px;font-size:7px}.software-stat-grid{gap:5px;margin:9px 0}.software-stat{padding:6px}.software-stat span{font-size:6px}.software-stat strong{font-size:11px}.software-stat small{font-size:7px}.software-analytics{height:90px;padding:7px}.soft-bar-chart{height:50px;gap:4px}.software-records{margin-top:9px}.software-record{height:21px}.software-watermark{font-size:.55rem}.solution-details h3{font-size:1.7rem;margin:16px 0 10px}.feature-grid{gap:14px 8px}.feature-grid div{font-size:.76rem}.portfolio-grid{grid-template-columns:1fr}.portfolio-card .project-art{height:230px}.portfolio-filters{gap:6px}.portfolio-filters button{padding:8px 12px;font-size:.75rem}.why-grid{grid-template-columns:1fr}.why-card{min-height:0}.process-track{grid-template-columns:1fr}.process-step{min-height:0}.pricing-grid{grid-template-columns:1fr}.pricing-card{min-height:0;padding:25px}.pricing-card>p{min-height:0}.price-value{min-height:75px}.estimator-form,.contact-form{padding:19px;border-radius:15px}.choice-grid{gap:8px}.choice-btn{font-size:.75rem;min-height:64px;padding:9px}.choice-btn svg{width:17px}.feature-choice{font-size:.72rem}.platform-choices button{padding:10px;font-size:.73rem}.request-summary>div{display:block}.request-summary b{display:block;text-align:start;margin-top:4px}.faq-item h3 button{gap:12px;font-size:.83rem}.faq-answer p{padding:0 35px 20px 0;font-size:.82rem}.contact-methods{gap:8px;flex-direction:column}.contact-methods a{padding:10px}.footer{padding-top:50px}.footer-top{gap:23px}.footer-columns{grid-template-columns:1fr 1fr;gap:26px}.footer-columns>div:nth-child(3){grid-column:span 2}.footer-bottom{display:flex;flex-wrap:wrap;justify-content:center;text-align:center;gap:10px;font-size:.69rem}.footer-watermark{margin-top:45px;font-size:15vw}.to-top{bottom:16px;right:16px}html[dir="rtl"] .to-top{left:16px;right:auto}.modal-content{padding:20px}.project-modal .project-art{height:215px}}
 @media(max-width:380px){.hero-actions .btn{width:100%}.hero h1{font-size:2.5rem}.hero-visual{min-height:285px}.hero-scene{transform:scale(.83)}.service-card ul{grid-template-columns:1fr}.software-stat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.software-stat strong{font-size:9px}.choice-grid{grid-template-columns:1fr}.window-label{font-size:6px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.intro-loader{display:none}}
+
+
+/*
+ * HEKMAT TECH — mobile and tablet refinement (v1.1)
+ * Loaded AFTER globals.css. All changes are scoped below 1024px so the
+ * existing large desktop composition and its design remain untouched.
+ * No JS, content, business settings or translation files were changed.
+ */
+
+@media (max-width: 1023px) {
+  /* Contain long Dari headings and prevent flex/grid min-content overflow. */
+  .site-root, main, section, .hero-layout, .solution-layout,
+  .estimator-layout, .contact-layout, .faq-layout, .why-layout,
+  .services-grid, .pricing-grid, .portfolio-grid, .footer-top {
+    min-width: 0;
+  }
+  .hero-copy, .hero-visual, .section-intro, .service-card,
+  .software-preview, .solution-details, .pricing-card,
+  .contact-copy, .contact-form, .estimator-form, .footer-columns {
+    min-width: 0;
+  }
+  .section-intro h2, .solution-details h3, .service-card h3,
+  .pricing-card h3, .contact-copy h2, .hero h1 {
+    overflow-wrap: break-word;
+  }
+  .section-intro h2, .hero h1 { text-wrap: balance; }
+  .container { width: min(100% - 44px, 850px); }
+  .section-pad { padding-block: clamp(72px, 9vw, 102px); }
+  .section-intro h2 { line-height: 1.25; }
+  html[lang="fa-AF"] .section-intro h2 { line-height: 1.5; }
+  .section-intro p { max-width: 680px; }
+
+  /* Mobile navigation: retain all controls and scroll long menus. */
+  .header-inner { gap: 10px; }
+  .header-logo, .header-controls { flex-shrink: 0; }
+  .header-controls { gap: 8px; }
+  .mobile-toggle, .theme-toggle { min-width: 44px; min-height: 44px; }
+  .lang-toggle button { min-height: 36px; min-width: 37px; }
+  .mobile-menu {
+    inset-inline: max(22px, calc((100vw - 850px) / 2));
+    max-height: calc(100vh - 100px);
+    max-height: calc(100dvh - 100px);
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  .mobile-menu nav { gap: 9px; }
+  .mobile-menu nav a {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+  }
+  .mobile-menu-bottom { gap: 10px; }
+
+  /* Intentional portrait composition, no miniature desktop column. */
+  .hero { padding-top: 148px; min-height: 0; }
+  .hero-layout { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 14px; }
+  .hero-copy { text-align: center; padding: 0; }
+  .hero-copy .eyebrow, .hero-actions, .hero-footnote { justify-content: center; }
+  .hero h1 { font-size: clamp(3rem, 7.5vw, 5rem); line-height: 1.25; }
+  html[lang="fa-AF"] .hero h1 {
+    font-size: clamp(2.55rem, 6.8vw, 4.6rem);
+    line-height: 1.55;
+    letter-spacing: -.035em;
+  }
+  .hero-description { margin-inline: auto; max-width: 600px; }
+  .hero-visual { width: min(650px, 100%); min-height: 535px; margin-inline: auto; }
+  .hero-scene { inset: 0; width: 100%; height: 100%; transform: none; }
+  html[dir="rtl"] .hero-scene { right: 0; }
+  .laptop-frame { left: 8%; top: 16%; width: 82%; height: 65%; }
+  .laptop-base { left: 6%; top: 81%; width: 87%; }
+  .floating-mobile { right: 0; top: 35%; }
+  .floating-info { top: 8%; left: 2%; }
+  .floating-database { bottom: 4%; left: 13%; }
+  .hero-bottom { justify-content: center; }
+  .hero-bottom-detail { display: none; }
+
+  .services-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .service-card { padding: 23px; min-height: 455px; }
+  .service-card ul { grid-template-columns: 1fr; }
+  .solution-layout, .estimator-layout, .contact-layout, .why-layout,
+  .faq-layout { grid-template-columns: minmax(0,1fr); }
+  .solution-visual, .software-preview { width: 100%; }
+  .why-layout .section-intro, .faq-layout .section-intro,
+  .estimator-copy { position: static; }
+  .portfolio-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .process-track { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .contact-methods { max-width: none; }
+  .footer-top { grid-template-columns: minmax(0,1fr); }
+
+  /* Buttons must remain tappable, not depend on a cursor hover. */
+  .nav-cta, .product-tab, .portfolio-filters button,
+  .feature-choice, .platform-choices button, .footer-langs button,
+  .mobile-menu-bottom button { min-height: 44px; }
+  .btn { min-height: 50px; }
+  .choice-btn { min-height: 60px; }
+  .field { font-size: 16px; } /* avoids iOS input-focus zoom */
+  .feature-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .feature-grid div { min-width: 0; }
+  .contact-methods a { min-width: 0; }
+  .contact-methods b { min-width: 0; overflow-wrap: anywhere; }
+  .request-summary b { overflow-wrap: anywhere; }
+}
+
+@media (max-width: 640px) {
+  .container { width: calc(100% - 32px); }
+  .section-pad { padding-block: 69px; }
+  .section-intro { margin-bottom: 28px; }
+  .section-intro h2 { font-size: clamp(1.9rem, 7.7vw, 2.7rem); margin-block: 14px; }
+  html[lang="fa-AF"] .section-intro h2 { font-size: clamp(1.82rem, 7.1vw, 2.5rem); }
+  .section-intro p { font-size: .97rem; line-height: 1.95; }
+  .eyebrow, html[lang="fa-AF"] .eyebrow { font-size: .76rem; }
+
+  /* Compact, usable fixed header and full-height scrolling menu. */
+  .site-header { top: 8px; }
+  .site-header.scrolled { top: 6px; }
+  .header-inner { min-height: 64px; padding: 7px 10px; border-radius: 14px; }
+  .brand-small .brand-mark { width: 38px; height: 38px; }
+  .brand-small .brand-name { font-size: 12px; }
+  .brand-small .brand-name span { font-size: 8px; }
+  .header-controls > .lang-toggle, .nav-cta { display: none; }
+  .header-controls { gap: 6px; }
+  .icon-button { width: 44px; height: 44px; }
+  .mobile-menu {
+    top: 69px; inset-inline: 16px;
+    max-height: calc(100dvh - 85px);
+    border-radius: 15px;
+  }
+  .mobile-menu nav { grid-template-columns: 1fr; padding: 12px; gap: 4px; }
+  .mobile-menu nav a { min-height: 47px; padding: 12px 15px; font-size: .91rem; }
+  .mobile-menu-bottom { padding: 12px; }
+
+  /* Legible, aesthetically proportioned hero rather than scale(.83). */
+  .hero { padding-top: 122px; }
+  .hero-layout { gap: 0; }
+  .hero h1 { font-size: clamp(2.25rem, 8.6vw, 3.75rem); line-height: 1.23; letter-spacing: -.053em; }
+  html[lang="fa-AF"] .hero h1 {
+    font-size: clamp(2.03rem, 7.8vw, 3.35rem);
+    line-height: 1.5;
+    letter-spacing: -.025em;
+  }
+  .hero-eyebrow, html[lang="fa-AF"] .hero-eyebrow {
+    font-size: .77rem; letter-spacing: .01em;
+    line-height: 1.7; margin-bottom: 19px;
+  }
+  .hero-alt { font-size: .86rem; margin-top: 16px; line-height: 1.7; }
+  .hero-description { font-size: .96rem; line-height: 1.9; margin: 16px auto 25px; }
+  html[lang="fa-AF"] .hero-description { line-height: 2; }
+  .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .hero-actions .btn { min-width: 0; padding: 12px 9px; gap: 7px; font-size: .86rem; white-space: normal; line-height: 1.5; }
+  .hero-actions .btn > span:not(.btn-shine) { overflow-wrap: anywhere; }
+  .hero-actions .btn svg { flex-shrink: 0; width: 15px; }
+  .hero-footnote { margin-top: 21px; gap: 10px 19px; }
+  .hero-footnote span { font-size: .8rem; }
+  .hero-footnote svg { flex-shrink: 0; }
+
+  .hero-visual { min-height: clamp(370px, 104vw, 490px); width: 100%; margin-top: 9px; }
+  .hero-scene, html[dir="rtl"] .hero-scene {
+    left: 0; right: 0; top: 0; width: 100%; height: 100%;
+    transform: none; transform-origin: center;
+  }
+  .scene-ring { inset: 8% 3% 5%; }
+  .ring-two { inset: 20% 14% 18%; }
+  .scene-title { right: 0; top: 8%; font-size: .6rem; letter-spacing: .10em; }
+  .laptop-frame {
+    z-index: 1; top: 14%; left: 0; width: 96%; height: 66%;
+    border: 5px solid #2b2e35; border-bottom-width: 8px;
+    border-radius: 12px 12px 7px 7px;
+    transform: rotateY(-5deg) rotateX(2deg) rotateZ(-1deg);
+  }
+  .laptop-base { z-index: 1; top: 80%; left: 0; width: 96%; height: 12px; transform: rotateZ(-1deg); }
+  .floating-mobile {
+    z-index: 2; top: 48%; right: 0; width: 26%; height: 46%;
+    border-width: 3px; border-radius: 18px; transform: rotate(8deg);
+  }
+  .phone-screen { padding: 24px 8px 10px; }
+  .phone-logo { font-size: 15px; }
+  .phone-kicker { margin-top: 13px; font-size: 6px; }
+  .phone-screen b { font-size: clamp(9px, 2.5vw, 13px); }
+  .phone-art span { width: 45px; height: 52px; }
+  .phone-cta { font-size: 7px; }
+  .floating-info {
+    z-index: 3; left: 0; top: 2%; padding: 8px 10px;
+    gap: 7px; border-radius: 9px;
+  }
+  .floating-info-icon { width: 30px; height: 30px; }
+  .floating-info small { font-size: 8px; margin-bottom: 2px; }
+  .floating-info b { font-size: 8px; }
+  .floating-database { z-index: 3; bottom: 0; left: 10%; padding: 9px; }
+  .concept-label { right: 3%; bottom: 2%; font-size: .52rem; }
+
+  /* Dashboard text was previously as small as 5px on iPhones. */
+  .dash-sidebar { width: 12%; flex: 0 0 12%; gap: 12px; padding: 12px 4px; }
+  .mini-brand { font-size: 14px; }
+  .sidebar-line { width: 12px; height: 4px; }
+  .sidebar-bottom { width: 11px; height: 11px; }
+  .dash-main { min-width: 0; padding: 12px 10px 7px; }
+  .dash-greeting { font-size: 11px; line-height: 1.45; }
+  .dash-caption { font-size: 8px; }
+  .dash-avatar { width: 21px; height: 21px; font-size: 10px; flex-shrink: 0; }
+  .dash-stat-row { gap: 8px; margin: 10px 0; }
+  .dash-stat { padding: 8px; min-width: 0; }
+  .dash-stat span, .dash-stat small { font-size: 8px; }
+  .dash-stat b { font-size: 16px; margin: 3px 0; }
+  .dash-chart { height: 98px; padding: 8px 9px; }
+  .dash-chart-top b { font-size: 9px; }
+  .dash-chart svg { height: 75px; }
+  .dash-list { font-size: 9px; padding: 9px 0 4px; }
+  .dash-data-row { height: 21px; gap: 7px; }
+  .dash-data-dot { width: 9px; height: 9px; flex-shrink: 0; }
+  .dash-data-lines i { width: 35px; }
+  .dash-data-pill { width: 28px; flex-shrink: 0; }
+  .hero-bottom { height: 62px; }
+  .marquee { height: 57px; }
+  .marquee-track { gap: 30px; }
+  .marquee-track span { font-size: .7rem; }
+
+  /* Vertical service cards: no clipped titles/features in Dari. */
+  .services-grid, .portfolio-grid, .pricing-grid,
+  .process-track, .why-grid { grid-template-columns: minmax(0,1fr); gap: 16px; }
+  .service-card { min-height: 0; padding: 23px 21px; }
+  .service-card h3 { font-size: 1.4rem; line-height: 1.5; }
+  .service-card p { font-size: .94rem; }
+  .service-card ul { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .service-card li { line-height: 1.6; overflow-wrap: anywhere; }
+  .service-art { height: 80px; }
+  .service-link { min-height: 44px; }
+
+  /* Touch-friendly product selector: horizontal swipe with accessible tabs. */
+  .product-tabs {
+    flex-wrap: nowrap; gap: 8px; overflow-x: auto; overflow-y: hidden;
+    margin-inline: -16px; padding-inline: 16px;
+    padding-block: 4px 12px; scroll-snap-type: x proximity;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+  .product-tab {
+    flex: 0 0 auto; white-space: nowrap; min-height: 48px;
+    scroll-snap-align: start; padding: 11px 15px;
+    font-size: .88rem; gap: 8px;
+  }
+  .product-tab svg { flex: 0 0 auto; }
+  .solution-layout { gap: 28px; }
+  .software-preview { min-height: 0; padding: 17px 11px 20px; border-radius: 15px; }
+  .software-window { max-width: none; transform: none; }
+  .software-preview:hover .software-window { transform: none; }
+  .window-top { height: 30px; }
+  .window-label { font-size: 7px; letter-spacing: .04em; }
+  .software-window-body { height: 394px; }
+  .software-sidebar { flex: 0 0 38px; width: 38px; padding: 10px 3px; gap: 13px; }
+  .software-logo { margin-bottom: 3px; }
+  .software-logo b { font-size: 8px; }
+  .software-logo svg { width: 18px; }
+  .soft-nav-icon { width: 31px; height: 33px; }
+  .soft-nav-icon svg { width: 16px; }
+  .software-content { padding: 14px 11px; min-width: 0; }
+  .software-head h4 { font-size: 12px; max-width: 200px; white-space: normal; line-height: 1.45; }
+  .soft-eyebrow { font-size: 9px; }
+  .software-profile { width: 24px; height: 24px; flex: 0 0 24px; }
+  .software-stat-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 7px; margin: 12px 0; }
+  .software-stat { min-width: 0; padding: 9px; }
+  .software-stat:nth-child(3) { grid-column: 1 / -1; }
+  .software-stat span { font-size: 9px; white-space: normal; line-height: 1.35; }
+  .software-stat strong { font-size: 15px; margin-top: 3px; }
+  .software-stat small { font-size: 9px; margin-top: 2px; }
+  .software-analytics { height: 105px; padding: 9px 10px; }
+  .software-analytics-title b { font-size: 10px; }
+  .software-analytics-title span { font-size: 9px; }
+  .soft-bar-chart { height: 64px; gap: 4px; }
+  .software-records { margin-top: 11px; }
+  .software-record { height: 25px; }
+  .record-status { font-size: 9px; }
+  .software-watermark { font-size: .68rem; letter-spacing: .02em; line-height: 1.5; }
+  .solution-details h3 { font-size: clamp(1.63rem,6.2vw,2.3rem); }
+  .solution-details > p { font-size: .94rem; }
+  .feature-grid { gap: 12px; }
+  .feature-grid div { font-size: .88rem; line-height: 1.7; }
+
+  .portfolio-card .project-art { height: 235px; }
+  .portfolio-card-bottom { padding: 19px; }
+  .portfolio-card-bottom h3 { font-size: 1.13rem; }
+  .portfolio-card-bottom p { font-size: .9rem; }
+  .portfolio-filters { gap: 8px; }
+  .portfolio-filters button { min-height: 44px; font-size: .86rem; padding: 10px 14px; }
+  .why-card { min-height: 0; padding: 23px; }
+  .process-step { min-height: 0; padding: 23px; }
+  .pricing-card { min-height: 0; padding: 25px 22px; }
+  .pricing-card > p { min-height: 0; }
+  .pricing-card h3 { font-size: 1.35rem; }
+  .price-value { min-height: 82px; }
+  .pricing-card li { font-size: .92rem; line-height: 1.5; }
+
+  /* Forms and project estimator: maintain 16px input size on iOS. */
+  .estimator-form, .contact-form { padding: 22px 17px; border-radius: 16px; }
+  .estimator-step { margin-bottom: 27px; }
+  .estimator-step h3 { font-size: .95rem; }
+  .choice-grid, .platform-choices { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+  .choice-btn { min-width: 0; min-height: 65px; gap: 7px; padding: 9px; font-size: .81rem; line-height: 1.5; }
+  .choice-btn svg { flex-shrink: 0; }
+  .choice-indicator { flex: 0 0 18px; }
+  .feature-choice { font-size: .83rem; padding: 10px 11px; min-height: 44px; line-height: 1.5; }
+  .platform-choices button { font-size: .8rem; padding: 10px; line-height: 1.5; }
+  .request-summary { padding: 16px; }
+  .request-summary > div { display: block; font-size: .88rem; margin: 12px 0; }
+  .request-summary b { display: block; text-align: start; margin-top: 4px; }
+  .form-field label { font-size: .87rem; }
+  .field { font-size: 16px; min-height: 52px; }
+  .faq-item h3 button { min-height: 60px; font-size: .93rem; line-height: 1.6; gap: 12px; }
+  .faq-number { min-width: 23px; }
+  .faq-answer p, html[dir="rtl"] .faq-answer p {
+    padding: 0 0 22px 0;
+    padding-inline-start: 36px;
+    padding-inline-end: 0;
+    font-size: .9rem; line-height: 1.9;
+  }
+  .contact-methods { display: flex; flex-direction: column; gap: 4px; margin: 10px 0 28px; }
+  .contact-methods a { padding: 12px 0; min-height: 66px; }
+  .contact-methods b { font-size: .94rem; }
+
+  /* Footer typography remains legible across both directions. */
+  .footer { padding-top: 50px; }
+  .footer-top { gap: 28px; }
+  .footer-columns { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px 14px; }
+  .footer-columns > div:nth-child(3) { grid-column: 1 / -1; }
+  .footer-columns a { font-size: .88rem; line-height: 1.7; overflow-wrap: anywhere; }
+  .footer-watermark { font-size: clamp(2.3rem,12.7vw,5rem); margin-top: 48px; }
+  .footer-bottom { justify-content: center; text-align: center; gap: 12px; font-size: .79rem; }
+  .to-top { width: 44px; height: 44px; bottom: 17px; }
+  .modal-backdrop { padding: 12px; }
+  .project-modal { max-height: calc(100dvh - 24px); }
+  .modal-content { padding: 21px; }
+  .modal-content h3 { font-size: 1.4rem; }
+  .project-modal .project-art { height: 210px; }
+}
+
+@media (max-width: 400px) {
+  .hero-actions { grid-template-columns: minmax(0,1fr); }
+  .hero-actions .btn { min-height: 51px; width: 100%; }
+  .hero-visual { min-height: 390px; }
+  .laptop-frame { height: 69%; }
+  .laptop-base { top: 83%; }
+  .dash-main { padding: 9px 7px 5px; }
+  .dash-sidebar { padding-inline: 3px; }
+  .dash-greeting { font-size: 10px; }
+  .dash-stat { padding: 6px; }
+  .dash-stat span, .dash-stat small { font-size: 8px; }
+  .dash-stat b { font-size: 14px; }
+  .dash-chart { height: 93px; }
+  .dash-chart svg { height: 68px; }
+  .floating-mobile { width: 27%; height: 45%; right: -1%; }
+  .phone-kicker { margin-top: 10px; }
+  .scene-title { top: 10%; font-size: .52rem; }
+  .service-card ul, .feature-grid { grid-template-columns: minmax(0,1fr); }
+  .software-window-body { height: 411px; }
+  .choice-btn { flex-wrap: wrap; justify-content: flex-start; }
+  .choice-indicator { margin-inline-start: auto; }
+}
+
+@media (max-width: 350px) {
+  .container { width: calc(100% - 26px); }
+  .header-inner { padding-inline: 8px; }
+  .header-controls { gap: 3px; }
+  .brand-small .brand-name { font-size: 10px; }
+  .mobile-menu { inset-inline: 13px; }
+  .hero h1 { font-size: 2.08rem; }
+  html[lang="fa-AF"] .hero h1 { font-size: 1.88rem; }
+  .hero-visual { min-height: 360px; }
+  .scene-title { display: none; }
+  .dash-sidebar { gap: 9px; }
+  .dash-main { padding-inline: 5px; }
+  .dash-stat-row { gap: 5px; }
+  .software-preview { padding-inline: 7px; }
+  .software-sidebar { flex-basis: 34px; width: 34px; }
+  .software-content { padding-inline: 8px; }
+  .platform-choices { grid-template-columns: minmax(0,1fr); }
+}
+
+/* Touch interaction: don't apply desktop hover transforms to tapped cards. */
+@media (hover: none) and (pointer: coarse) {
+  .service-card:hover, .pricing-card:hover, .portfolio-card:hover,
+  .why-card:hover, .btn:hover { transform: none; }
+  .software-preview:hover .software-window { transform: none; }
+  .btn:active { transform: scale(.985); }
+}
